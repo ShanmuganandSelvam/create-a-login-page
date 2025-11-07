@@ -1,0 +1,51 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.welcome-container {
+  width: 100%;
+  max-width: 480px;
+  padding: 20px;
+}
+
+.welcome-card {
+  background-color: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+}
+
+.welcome-card h1 {
+  color: var(--primary-color);
+  margin-bottom: 16px;
+  font-size: 28px;
+}
+
+.welcome-card p {
+  color: var(--text-light);
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.logout-button {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 6px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.logout-button:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
